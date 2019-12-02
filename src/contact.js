@@ -5,7 +5,7 @@ const contact = () => {
   contactTitle.textContent = 'Please come and contact us in the location shown below:';
 
   const contactPlace = document.createElement('h4');
-  contactPlace.textContent = 'Ethiopia, Addis Ababa';   
+  contactPlace.textContent = 'Ethiopia, Addis Ababa';
   contactDiv.appendChild(contactTitle);
   contactDiv.appendChild(contactPlace);
 
