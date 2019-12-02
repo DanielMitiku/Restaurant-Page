@@ -1,0 +1,25 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "restaurant-page",
+  "main": "index.js",
+  "dependencies": {
+    "eslint-config-airbnb": "^18.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielMitiku/Restaurant-Page.git"
+  },
+  "author": "Daniel-Wesego",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielMitiku/Restaurant-Page/issues"
+  },
+  "homepage": "https://github.com/DanielMitiku/Restaurant-Page#readme"
+}
