@@ -7,9 +7,7 @@ const home = () => {
   homeText.classList.add('text-center');
   homeText.textContent = 'Everything you need, we have.';
   homeDiv.appendChild(homeTitle);
-  homeDiv.appendChild(homeText);
-  
+  homeDiv.appendChild(homeText);  
   return homeDiv;
-};
-  
+};  
 export default home;

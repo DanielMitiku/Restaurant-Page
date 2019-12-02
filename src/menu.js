@@ -7,7 +7,7 @@ const menu = () => {
   menuList.classList.add('list-group');
   const menuArray = ['Pizza', 'Burger', 'Chicken', 'Fish', 'Salad', 'Lasagna', 'Beef', 'Sishu', 'Rice'];
 
-  for (let i = 0; i < 9; i++) {
+  for (let i = 0; i < 9; i += 1) {
     const menuItem = document.createElement('li');
     menuItem.classList.add('list-group-item');
     menuItem.textContent = menuArray[i];
@@ -16,8 +16,7 @@ const menu = () => {
   }
 
   menuDiv.appendChild(menuTitle);
-  menuDiv.appendChild(menuList);
-  
+  menuDiv.appendChild(menuList);  
   return menuDiv;
 };
 export default menu;
